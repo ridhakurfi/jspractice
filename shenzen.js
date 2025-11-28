@@ -1,7 +1,7 @@
 const hero = ["Superman", "Ultraman", "Megaman"];
 
-const randowis = (arai) => {
+const randomizer = (arai) => {
   return arai[Math.floor(Math.random() * arai.length)];
 };
 
-console.log(randowis(hero));
+console.log(randomizer(hero));
