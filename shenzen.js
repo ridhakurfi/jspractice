@@ -6,7 +6,7 @@ const biomas = (param1, param2, param3) => {
 const biomex = biomas(
   () => "Freezing ",
   () => "Tundra",
-  (x) => "Forbidden " + x
+  (y) => "Forbidden " + y
 );
 console.log(biomex);
 
