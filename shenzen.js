@@ -1,12 +1,19 @@
-const biomas = (param1, param2, param3) => {
-  const bioma = param1() + param2();
-  const biomo = param3(bioma);
-  return biomo;
+const floras = (param1, param2, param3) => {
+  const flour = param1() + param2();
+  const flor = param3(flour);
+  return flor;
 };
-const biomex = biomas(
-  () => "Freezing ",
-  () => "Tundra",
-  (y) => "Forbidden " + y
-);
-console.log(biomex);
 
+const florr = () => {
+  return "Man-Eating ";
+};
+const florrr = () => {
+  return "Gas-Omitting ";
+};
+const fleur = (fl) => {
+  const flr = fl + "Cactus";
+  return flr;
+};
+
+const result = floras(florr, florrr, fleur);
+console.log(result);
