@@ -1,4 +1,4 @@
-const floras = (param1, param2, param3) => {
+const florarium = (param1, param2, param3) => {
   const flour = param1() + param2();
   const flor = param3(flour);
   return flor;
@@ -15,5 +15,5 @@ const fleur = (fl) => {
   return flr;
 };
 
-const result = floras(florr, florrr, fleur);
+const result = florarium(florr, florrr, fleur);
 console.log(result);
