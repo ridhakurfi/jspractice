@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Dragonfire Blade",
+        "element": "Fire"
+    },
+    {
+        "id": 2,
+        "name": "Frostfang Spear",
+        "element": "Ice"
+    },
+    {
+        "id": 3,
+        "name": "Stormbreaker Axe",
+        "element": "Lightning"
+    },
+    {
+        "id": 4,
+        "name": "Shadow Reaper Dagger",
+        "element": "Dark"
+    },
+    {
+        "id": 5,
+        "name": "Eternal Sun Staff",
+        "element": "Light"
+    },
+    {
+        "id": 6,
+        "name": "Earthshatter Hammer",
+        "element": "Earth"
+    },
+    {
+        "id": 7,
+        "name": "Abyssal Harpoon",
+        "element": "Water"
+    },
+    {
+        "id": 8,
+        "name": "Celestial Bow",
+        "element": "Holy"
+    },
+    {
+        "id": 9,
+        "name": "Void Cleaver",
+        "element": "Arcane"
+    },
+    {
+        "id": 10,
+        "name": "Soulrender Scythe",
+        "element": "Spirit"
+    }
+]
