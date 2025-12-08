@@ -1,9 +1,14 @@
-const Controller = require("./controllers/controller")
-const [param1, param2, param3, param4] = process.argv.slice(2);
+const Controller = require("./controllers/controller");
 
-switch (param1) {
-  case "biomeList":
-    Controller.list();
+const terminal = process.argv.slice(2);
+const command = terminal[0];
+const param1 = terminal[1];
+const param2 = terminal[2];
+
+
+switch (command) {
+  case "plantList":
+    Controller.plantList()
     break;
   default:
     Controller.help();

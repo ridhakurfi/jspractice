@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Moonpetal Orchid",
+        "property": "Glows softly under moonlight"
+    },
+    {
+        "id": 2,
+        "name": "Inferno Blossom",
+        "property": "Petals radiate heat and never burn out"
+    },
+    {
+        "id": 3,
+        "name": "Frostvine Lily",
+        "property": "Freezes any water around its roots"
+    },
+    {
+        "id": 4,
+        "name": "Whisper Fern",
+        "property": "Produces faint voices when wind passes through"
+    },
+    {
+        "id": 5,
+        "name": "Starfruit Bramble",
+        "property": "Berries sparkle like constellations"
+    },
+    {
+        "id": 6,
+        "name": "Emberleaf Oak",
+        "property": "Its leaves burn like embers but never turn to ash"
+    },
+    {
+        "id": 7,
+        "name": "Crystal Thorn Rose",
+        "property": "Thorns are transparent and razor sharp"
+    },
+    {
+        "id": 8,
+        "name": "Dreammoss",
+        "property": "Induces vivid dreams when smelled"
+    },
+    {
+        "id": 9,
+        "name": "Abyss Lotus",
+        "property": "Blooms only in complete darkness"
+    },
+    {
+        "id": 10,
+        "name": "Sunflare Dandelion",
+        "property": "Releases tiny sparks when its seeds are blown"
+    }
+]

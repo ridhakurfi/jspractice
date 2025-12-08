@@ -1,6 +1,13 @@
 class View {
   static tutorial() {
-    console.log("Under Construction");
+    console.log("-------------");
+    console.log("The Pathing Practice");
+    console.log("-------------");
+  }
+  static plantList(data){
+    console.table(data);
+    
   }
 }
-module.exports = View;
+
+module.exports = View

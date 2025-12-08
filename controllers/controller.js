@@ -1,18 +1,17 @@
-const View = require("../views/view");
 const Model = require("../models/model");
+const View = require("../views/view");
 
 class Controller {
   static help() {
     View.tutorial();
   }
-  static async weaponList() {
+  static async plantList() {
     try {
-      let customers = await Model.readWeapons();
-      View.listWeapons(customers);
+      let datas = await Model.plantList();
+      View.plantList(datas);
     } catch (error) {
-      console.log(error);
+      console.log(error.message);
     }
   }
 }
-
 module.exports = Controller;

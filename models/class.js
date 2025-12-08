@@ -1,20 +1,22 @@
-class Weapon {
-  constructor(id, name, element) {
+class Plant {
+  constructor(id, name, property) {
     this.id = id;
     this.name = name;
-    this.element = element;
+    this.property = property;
   }
 }
 
 class Factory {
-  static createWeapon(weapons) {
-    let { id, name, element } = weapons;
-    return new Weapon(id, name, element);
+  static createPlant(data) {
+    let { id, name, property } = data;
+    return new Plant(id, name, property);
   }
-  static createManyWeapons(weapons) {
-    let weapon = weapons.map((item) => {
-      return new Factory.createWeapon(item);
+  static createManyPlant(data) {
+    let datas = data.map((item) => {
+      return Factory.createPlant(item);
     });
-    return weapon;
+    return datas;
   }
 }
+
+module.exports = Factory;
