@@ -5,13 +5,14 @@ class Controller {
   static help() {
     View.tutorial();
   }
-  static async plantList() {
+  static async readPlanet() {
     try {
-      let datas = await Model.plantList();
-      View.plantList(datas);
+      let datas = await Model.readPlanet();
+      View.readPlanet(datas);
     } catch (error) {
-      console.log(error.message);
+      console.log(error);
     }
   }
 }
+
 module.exports = Controller;

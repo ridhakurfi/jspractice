@@ -5,20 +5,21 @@ const fs = require("fs").promises;
 class Model {
   static async load() {
     try {
-      const raw = await fs.readFile("./data/plants.json", "utf8");
+      let raw = await fs.readFile("./data/planets.json", "utf8");
       return JSON.parse(raw);
     } catch (error) {
-      console.log(error.message);
+      console.log(error);
     }
   }
-  static async plantList() {
+  static async readPlanet() {
     try {
-      let data = await this.load();
-      data = Factory.createManyPlant(data);
-      return data;
+      let datas = await this.load();
+      datas = Factory.createManyPlanet(datas);
+      return datas;
     } catch (error) {
-      console.log(error.message);
+      console.log(error);
     }
   }
 }
+
 module.exports = Model;

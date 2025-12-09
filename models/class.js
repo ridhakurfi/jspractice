@@ -1,21 +1,21 @@
-class Plant {
-  constructor(id, name, property) {
+class Planet {
+  constructor(id, planet, resource) {
     this.id = id;
-    this.name = name;
-    this.property = property;
+    this.planet = planet;
+    this.resource = resource;
   }
 }
 
 class Factory {
-  static createPlant(data) {
-    let { id, name, property } = data;
-    return new Plant(id, name, property);
+  static createPlanet(item) {
+    let { id, planet, resource } = item;
+    return new Planet(id, planet, resource);
   }
-  static createManyPlant(data) {
-    let datas = data.map((item) => {
-      return Factory.createPlant(item);
+  static createManyPlanet(item) {
+    let data = item.map((datas) => {
+      return this.createPlanet(datas);
     });
-    return datas;
+    return data;
   }
 }
 
