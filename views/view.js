@@ -1,10 +1,10 @@
 class View {
-  static tutorial() {
-    console.log("------------------------");
-    console.log("  PATHING PRACTICE 3.0");
-    console.log("------------------------");
+  static frontPage() {
+    console.log("-------------------------------");
+    console.log("      Rare Weapons Shop");
+    console.log("-------------------------------");
   }
-  static readPlanet(data) {
+  static showWeapon(data) {
     console.table(data);
   }
 }

@@ -4,17 +4,13 @@ const fs = require("fs").promises;
 
 class Model {
   static async load() {
-    try {
-      let raw = await fs.readFile("./data/planets.json", "utf8");
-      return JSON.parse(raw);
-    } catch (error) {
-      console.log(error);
-    }
+    return JSON.parse(await fs.readFile("./data/weapons.json", "utf8"));
   }
-  static async readPlanet() {
+  static async createWeapon() {
     try {
       let datas = await this.load();
-      datas = Factory.createManyPlanet(datas);
+      datas = Factory.createManyWeapon(datas);
+    //   console.log(datas,"<<<<<<<<");
       return datas;
     } catch (error) {
       console.log(error);

@@ -2,13 +2,13 @@ const Model = require("../models/model");
 const View = require("../views/view");
 
 class Controller {
-  static help() {
-    View.tutorial();
+  static home() {
+    View.frontPage();
   }
-  static async readPlanet() {
+  static async showWeapon() {
     try {
-      let datas = await Model.readPlanet();
-      View.readPlanet(datas);
+      let datas = await Model.createWeapon();
+      View.showWeapon(datas);
     } catch (error) {
       console.log(error);
     }

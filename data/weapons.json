@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Katana of the Crescent Moon",
+        "culture": "Japanese",
+        "description": "A curved blade forged with lunar steel."
+    },
+    {
+        "id": 2,
+        "name": "Shamshir of the Desert Winds",
+        "culture": "Persian",
+        "description": "An elegant saber that moves with unmatched speed."
+    },
+    {
+        "id": 3,
+        "name": "Dragon-Horn Khanda",
+        "culture": "Indian",
+        "description": "A double-edged sword infused with dragon energy."
+    },
+    {
+        "id": 4,
+        "name": "Frost-Runed Viking Axe",
+        "culture": "Norse",
+        "description": "A one-handed axe engraved with runes."
+    },
+    {
+        "id": 5,
+        "name": "Sun-Forged Macuahuitl",
+        "culture": "Aztec",
+        "description": "A obsidian-bladed club that emits blinding solar heat."
+    },
+    {
+        "id": 6,
+        "name": "Gilded Khopesh of Pharaohs",
+        "culture": "Egyptian",
+        "description": "A sickle-sword once used by royalty."
+    },
+    {
+        "id": 7,
+        "name": "Thunder-bound Zulu Assegai",
+        "culture": "African",
+        "description": "A long spear that crackles with lightning."
+    },
+    {
+        "id": 8,
+        "name": "Blood-Oath Gladius",
+        "culture": "Roman",
+        "description": "A short sword fueled by the wielder’s determination."
+    },
+    {
+        "id": 9,
+        "name": "Elven Leaf-Bow",
+        "culture": "Celtic",
+        "description": "A living bow carved from a sacred tree."
+    },
+    {
+        "id": 10,
+        "name": "Turtle-Shell Woldo",
+        "culture": "Korean",
+        "description": "A polearm reinforced with tortoise shell."
+    }
+]

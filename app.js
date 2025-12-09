@@ -1,13 +1,15 @@
 const Controller = require("./controllers/controller");
 
-const [param1, param2, param3] = process.argv.slice(2)
+const terminal = process.argv.slice(2);
+const command = terminal[0];
+const act1 = terminal[1];
+const act2 = terminal[2];
 
-switch (param1) {
-    case "planetList":
-        Controller.readPlanet()
-        break;
-
-    default:
-        Controller.help()
-        break;
+switch (command) {
+  case "weaponList":
+    Controller.showWeapon();
+    break;
+  default:
+    Controller.home();
+    break;
 }

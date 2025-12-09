@@ -1,21 +1,21 @@
-class Planet {
-  constructor(id, planet, resource) {
+class Weapon {
+  constructor(id, name, culture, description) {
     this.id = id;
-    this.planet = planet;
-    this.resource = resource;
+    this.name = name;
+    this.culture = culture;
+    this.description = description;
   }
 }
 
 class Factory {
-  static createPlanet(item) {
-    let { id, planet, resource } = item;
-    return new Planet(id, planet, resource);
+  static createWeapon({ id, name, culture, description }) {
+    return new Weapon(id, name, culture, description );
   }
-  static createManyPlanet(item) {
-    let data = item.map((datas) => {
-      return this.createPlanet(datas);
+  static createManyWeapon(item) {
+    let items = item.map((it) => {
+      return this.createWeapon(it);
     });
-    return data;
+    return items;
   }
 }
 
